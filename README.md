@@ -23,12 +23,15 @@
 2. Tạo bảng
 
 2.1 Bảng GiaoVien
+
 ![image](https://github.com/user-attachments/assets/ad8b2608-b411-4fb4-9628-cbf37f22ead6)
 
 2.2 Bảng MonHoc
+
 ![image](https://github.com/user-attachments/assets/f26bb722-d30c-4bf6-a47e-de83b83f7d89)
 
 2.3 Bang LopHocPhan
+
 ![image](https://github.com/user-attachments/assets/b5076449-876d-476a-8f6c-a560a12a5d4d)
 
 
