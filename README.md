@@ -56,7 +56,7 @@
 ![image](https://github.com/user-attachments/assets/de956e7a-4a01-4f6f-84e2-7b7f0f9d5203)
 
 ### 4.1 Bảng GiaoVien
-- Sao chép cột GV từ cột B paste cột P và thiết lập thêm cột MaGV vì nó chưa có trong excel.
+- Sao chép cột GV từ cột B paste sang cột P và thiết lập thêm cột MaGV vì nó chưa có trong excel.
 ![image](https://github.com/user-attachments/assets/0425da92-0396-4910-bd49-fb94bb4173dc)
 
 - Lọc dữ liệu giáo viên:
