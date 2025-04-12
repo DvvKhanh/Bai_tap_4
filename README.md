@@ -72,12 +72,15 @@
 - Lọc dữ liệu
 ![image](https://github.com/user-attachments/assets/bc5c09b1-22e6-4f66-914b-d00892087d72)
 
-- Sao chép dữ liệu vừa lọc và paste dữ liệu vào bảng
+- Sao chép dữ liệu vừa lọc và paste dữ liệu vào bảng MonHoc
 ![image](https://github.com/user-attachments/assets/053918ae-1a43-48bb-8427-1655bbdd921f)
 
 ### 4.3 Bảng LopHocPhan
+- Lọc dữ liệu
 ![image](https://github.com/user-attachments/assets/7af6dd07-b02f-4813-a4b5-2247a8d8c4e5)
 
+- Sao chép dữ liệu vừa lọc và paste dữ liệu vào bảng LopHocPhan
+![image](https://github.com/user-attachments/assets/06f14ca5-6ff2-46d8-b9d7-59a0f8f32351)
 
 
 
