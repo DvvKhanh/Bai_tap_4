@@ -59,12 +59,14 @@
 ![image](https://github.com/user-attachments/assets/de956e7a-4a01-4f6f-84e2-7b7f0f9d5203)
 
 ### 4.1 Bảng GiaoVien
-- Sao chép cột GV từ cột B sang cột P và thiết lập thêm cột MaGV vì nó chưa có trong excel.
+- Sao chép cột GV từ cột B paste cột P và thiết lập thêm cột MaGV vì nó chưa có trong excel.
 ![image](https://github.com/user-attachments/assets/0425da92-0396-4910-bd49-fb94bb4173dc)
 
-- Lọc dữ liệu giáo viên 
+- Lọc dữ liệu giáo viên:
   Chọn cột P vừa được dán -> Vào tab "Data" trên thanh công cụ (Ribbon) -> Chọn "Remove Duplicates"
    -> Xác nhận hộp thoại hiện ra → Nhấn OK → Kết quả là danh sách tên giáo viên duy nhất.
+  
+![Screenshot 2025-04-12 221950](https://github.com/user-attachments/assets/7f66c88f-3475-4f39-9d28-6ee1d10f29b6)
 
 - Sao chép dữ liệu vừa lọc và paste dữ liệu vào bảng GiaoVien
 ![image](https://github.com/user-attachments/assets/673d582e-444c-4495-9268-e59e14d804e0)
@@ -75,6 +77,9 @@
 
 - Sao chép dữ liệu vừa lọc và paste dữ liệu vào bảng
 ![image](https://github.com/user-attachments/assets/053918ae-1a43-48bb-8427-1655bbdd921f)
+
+### 4.3 Bảng LopHocPhan
+
 
 
 
