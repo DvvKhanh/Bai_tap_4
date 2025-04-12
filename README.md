@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e203230a-0b87-42f5-aff2-14caf5138495)# Yêu cầu bài toán:
+# Yêu cầu bài toán:
  - Tạo csdl cho hệ thống TKB (đã nghe giảng, đã xem cách làm)
  - Nguồn dữ liệu: TMS.tnut.edu.vn
  - Tạo các bảng tuỳ ý (3nf)
