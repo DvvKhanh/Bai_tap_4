@@ -32,11 +32,7 @@
 
 2.3 Bang LopHocPhan
 
-![image](https://github.com/user-attachments/assets/990084f6-56b9-46ee-831c-bbe0a7065683)
-
-- Thiết lập khóa ngoại cho bảng
-
-![image](https://github.com/user-attachments/assets/45b8a8d2-31c9-44dd-80a6-d83918e0a9d5)
+![image](https://github.com/user-attachments/assets/a440199e-9fa1-4cbc-b447-a7b5de9e42ad)
 
 2.4 Bang TKB
 
@@ -47,7 +43,7 @@
 ![image](https://github.com/user-attachments/assets/cd7664a3-804f-45a1-99ce-9f42ac196ef9)
 
 ## 3. Tạo Diagram
-![image](https://github.com/user-attachments/assets/164e8ce5-570d-41ad-bb7f-74996275c487)
+![Uploading image.png…]()
 
 ## 4. Thêm thông tin cho các bảng 
 - Truy cập vào đường link TMS.tnut.edu.vn để lấy dữ liệu
