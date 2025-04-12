@@ -32,7 +32,7 @@
 
 2.3 Bang LopHocPhan
 
-![image](https://github.com/user-attachments/assets/f271b9e0-556e-4eb5-aa35-112e3c3aead9)
+![image](https://github.com/user-attachments/assets/990084f6-56b9-46ee-831c-bbe0a7065683)
 
 - Thiết lập khóa ngoại cho bảng
 
@@ -48,6 +48,37 @@
 
 ## 3. Tạo Diagram
 ![image](https://github.com/user-attachments/assets/164e8ce5-570d-41ad-bb7f-74996275c487)
+
+## 4. Thêm thông tin cho các bảng 
+- Truy cập vào đường link TMS.tnut.edu.vn để lấy dữ liệu
+
+![image](https://github.com/user-attachments/assets/42033a28-7708-4d9d-bd5b-c7934fe65e05)
+
+- Copy các dữ liệu cần thiết và dán vào excel
+
+![image](https://github.com/user-attachments/assets/de956e7a-4a01-4f6f-84e2-7b7f0f9d5203)
+
+### 4.1 Bảng GiaoVien
+- Sao chép cột GV từ cột B sang cột P và thiết lập thêm cột MaGV vì nó chưa có trong excel.
+![image](https://github.com/user-attachments/assets/0425da92-0396-4910-bd49-fb94bb4173dc)
+
+- Lọc dữ liệu giáo viên 
+  Chọn cột P vừa được dán -> Vào tab "Data" trên thanh công cụ (Ribbon) -> Chọn "Remove Duplicates"
+   -> Xác nhận hộp thoại hiện ra → Nhấn OK → Kết quả là danh sách tên giáo viên duy nhất.
+
+- Sao chép dữ liệu vừa lọc và paste dữ liệu vào bảng GiaoVien
+![image](https://github.com/user-attachments/assets/673d582e-444c-4495-9268-e59e14d804e0)
+
+### 4.2 Bảng MonHoc
+- Lọc dữ liệu
+![image](https://github.com/user-attachments/assets/bc5c09b1-22e6-4f66-914b-d00892087d72)
+
+- Sao chép dữ liệu vừa lọc và paste dữ liệu vào bảng
+![image](https://github.com/user-attachments/assets/053918ae-1a43-48bb-8427-1655bbdd921f)
+
+
+
+
 
 
 
