@@ -36,9 +36,12 @@
 
 2.4 Bang TKB
 
-![image](https://github.com/user-attachments/assets/e5ec3795-b722-4420-a16e-ee079707dc15)
+![image](https://github.com/user-attachments/assets/0a066d86-3b38-442b-ac2a-77867d1f60f3)
 
 - Thiết lập khóa ngoại
+ + MaGV – khóa ngoại tham chiếu đến bảng GiaoVien: Liên kết cột MaGV của bảng TKB với MaGV của bảng GiaoVien.
+ + MaLHP – khóa ngoại tham chiếu đến bảng LopHocPhan: Liên kết cột MaLHP của bảng TKB với MaLHP của bảng LopHocPhan.
+ + MaMH – khóa ngoại tham chiếu đến bảng MonHoc: Liên kết MaMH của bảng TKB với MaMH của bảng MonHoc.
 
 ![image](https://github.com/user-attachments/assets/cd7664a3-804f-45a1-99ce-9f42ac196ef9)
 
