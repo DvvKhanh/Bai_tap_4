@@ -105,6 +105,15 @@ JOIN MonHoc MH ON TKB.MaMH = MH.MaMH;
 ![image](https://github.com/user-attachments/assets/167a564c-9476-492f-80c9-dcfdb82aed8d)
 
 ## 6. Trả lời câu hỏi: trong khoảng thời gian từ datetime1 tới datetime2 thì có những gv nào đang bận giảng dạy.
+![image](https://github.com/user-attachments/assets/2d758786-9125-4446-a648-7025a85bc2db)
+
+☘ Xuất hiện ra cửa sổ như này
+![image](https://github.com/user-attachments/assets/bc7bc298-5316-41a2-8bfc-4d4f6107f892)
+
+☘ Lệnh truy vấn
+
+
+
 
 
 
