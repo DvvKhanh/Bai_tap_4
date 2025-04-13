@@ -38,10 +38,10 @@
 
 ![image](https://github.com/user-attachments/assets/0a066d86-3b38-442b-ac2a-77867d1f60f3)
 
-- Thiết lập khóa ngoại
- + MaGV – khóa ngoại tham chiếu đến bảng GiaoVien: Liên kết cột MaGV của bảng TKB với MaGV của bảng GiaoVien.
- + MaLHP – khóa ngoại tham chiếu đến bảng LopHocPhan: Liên kết cột MaLHP của bảng TKB với MaLHP của bảng LopHocPhan.
- + MaMH – khóa ngoại tham chiếu đến bảng MonHoc: Liên kết MaMH của bảng TKB với MaMH của bảng MonHoc.
+☘ Thiết lập khóa ngoại:
+ - MaGV – khóa ngoại tham chiếu đến bảng GiaoVien: Liên kết cột MaGV của bảng TKB với MaGV của bảng GiaoVien.
+ - MaLHP – khóa ngoại tham chiếu đến bảng LopHocPhan: Liên kết cột MaLHP của bảng TKB với MaLHP của bảng LopHocPhan.
+ - MaMH – khóa ngoại tham chiếu đến bảng MonHoc: Liên kết MaMH của bảng TKB với MaMH của bảng MonHoc.
 
 ![image](https://github.com/user-attachments/assets/cd7664a3-804f-45a1-99ce-9f42ac196ef9)
 
@@ -50,39 +50,39 @@
 ![Screenshot 2025-04-13 001016](https://github.com/user-attachments/assets/ce1ed50c-af94-403a-bc60-5ec23545affa)
 
 ## 4. Thêm thông tin cho các bảng 
-- Truy cập vào đường link TMS.tnut.edu.vn để lấy dữ liệu
+☘ Truy cập vào đường link TMS.tnut.edu.vn để lấy dữ liệu
 
 ![image](https://github.com/user-attachments/assets/42033a28-7708-4d9d-bd5b-c7934fe65e05)
 
-- Copy các dữ liệu cần thiết và dán vào excel
+☘ Copy các dữ liệu cần thiết và dán vào excel
 
 ![image](https://github.com/user-attachments/assets/de956e7a-4a01-4f6f-84e2-7b7f0f9d5203)
 
 ### 4.1 Bảng GiaoVien
-- Sao chép cột GV từ cột B paste sang cột P và thiết lập thêm cột MaGV vì nó chưa có trong excel.
+☘ Sao chép cột GV từ cột B paste sang cột P và thiết lập thêm cột MaGV vì nó chưa có trong excel.
 ![image](https://github.com/user-attachments/assets/0425da92-0396-4910-bd49-fb94bb4173dc)
 
-- Lọc dữ liệu giáo viên:
+☘ Lọc dữ liệu giáo viên:
   Chọn cột P vừa được dán -> Vào tab "Data" trên thanh công cụ (Ribbon) -> Chọn "Remove Duplicates"
    -> Xác nhận hộp thoại hiện ra → Nhấn OK → Kết quả là danh sách tên giáo viên duy nhất.
   
 ![Screenshot 2025-04-12 221950](https://github.com/user-attachments/assets/7f66c88f-3475-4f39-9d28-6ee1d10f29b6)
 
-- Sao chép dữ liệu vừa lọc và paste dữ liệu vào bảng GiaoVien
+☘ Sao chép dữ liệu vừa lọc và paste dữ liệu vào bảng GiaoVien
 ![image](https://github.com/user-attachments/assets/673d582e-444c-4495-9268-e59e14d804e0)
 
 ### 4.2 Bảng MonHoc
-- Lọc dữ liệu
+☘ Lọc dữ liệu
 ![image](https://github.com/user-attachments/assets/bc5c09b1-22e6-4f66-914b-d00892087d72)
 
-- Sao chép dữ liệu vừa lọc và paste dữ liệu vào bảng MonHoc
+☘ Sao chép dữ liệu vừa lọc và paste dữ liệu vào bảng MonHoc
 ![image](https://github.com/user-attachments/assets/053918ae-1a43-48bb-8427-1655bbdd921f)
 
 ### 4.3 Bảng LopHocPhan
-- Lọc dữ liệu
+☘ Lọc dữ liệu
 ![image](https://github.com/user-attachments/assets/7af6dd07-b02f-4813-a4b5-2247a8d8c4e5)
 
-- Sao chép dữ liệu vừa lọc và paste dữ liệu vào bảng LopHocPhan
+☘ Sao chép dữ liệu vừa lọc và paste dữ liệu vào bảng LopHocPhan
 ![image](https://github.com/user-attachments/assets/06f14ca5-6ff2-46d8-b9d7-59a0f8f32351)
 
 ### 4.4 Bảng TKB
