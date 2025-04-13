@@ -82,6 +82,10 @@
 - Sao chép dữ liệu vừa lọc và paste dữ liệu vào bảng LopHocPhan
 ![image](https://github.com/user-attachments/assets/06f14ca5-6ff2-46d8-b9d7-59a0f8f32351)
 
+### 4.4 Bảng TKB
+![image](https://github.com/user-attachments/assets/029e0b56-76ab-4516-869b-79df3573aa01)
+
+
 
 
 
