@@ -99,8 +99,12 @@ SELECT
 FROM TKB
 JOIN GiaoVien GV ON TKB.MaGV = GV.MaGV
 JOIN MonHoc MH ON TKB.MaMH = MH.MaMH;
+```
 
-```sql
+☘ Kết quả
+![image](https://github.com/user-attachments/assets/167a564c-9476-492f-80c9-dcfdb82aed8d)
+
+## 6. Trả lời câu hỏi: trong khoảng thời gian từ datetime1 tới datetime2 thì có những gv nào đang bận giảng dạy.
 
 
 
