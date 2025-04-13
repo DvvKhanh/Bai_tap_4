@@ -111,6 +111,61 @@ JOIN MonHoc MH ON TKB.MaMH = MH.MaMH;
 ![image](https://github.com/user-attachments/assets/bc7bc298-5316-41a2-8bfc-4d4f6107f892)
 
 ☘ Lệnh truy vấn
+```sql
+-- ================================================
+-- Template generated from Template Explorer using:
+-- Create Procedure (New Menu).SQL
+--
+-- Use the Specify Values for Template Parameters 
+-- command (Ctrl-Shift-M) to fill in the parameter 
+-- values below.
+--
+-- This block of comments will not be included in
+-- the definition of the procedure.
+-- ================================================
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:      Đậu Văn Khánh
+-- Create date: 2025-04-13
+-- Description:	Truy vấn các giáo viên bận giảng dạy trong khoảng thời gian
+-- =============================================
+ALTER PROCEDURE TKB_GV 
+    @thoiGianBatDau datetime,
+    @thoiGianKetThuc datetime
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT DISTINCT
+        GV.MaGV AS MaGiaoVien,
+        GV.HoTen AS TenGiaoVien,
+        MH.TenMH AS TenMonHoc,
+		LHP.Tenlop,
+        TKB.GioVao,
+        TKB.GioRa,
+        TKB.NgayHoc
+    FROM TKB 
+    JOIN GiaoVien GV ON TKB.MaGV = GV.MaGV
+    JOIN MonHoc MH ON TKB.MaMH = MH.MaMH
+	JOIN LopHocPhan LHP ON TKB.MaLHP = LHP.MaLHP
+    WHERE
+        TKB.NgayHoc = CAST(@thoiGianBatDau AS DATE)
+        AND (
+            -- Khoảng thời gian kiểm tra giao với thời gian giảng dạy
+            TKB.GioVao < CAST(@thoiGianKetThuc AS TIME)
+            AND TKB.GioRa > CAST(@thoiGianBatDau AS TIME)
+        )
+END
+GO
+-- Lấy danh sách giảng viên bận từ 8:00 đến 12:00 ngày 2025-03-20
+EXEC TKB_GV '2025-03-20 8:00', '2025-03-20 12:00';
+```
+☘ Kết quả
+
+![image](https://github.com/user-attachments/assets/88f7dd71-5a10-48be-b221-1bdbf4ddb3bb)
 
 
 
