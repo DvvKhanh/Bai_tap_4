@@ -89,7 +89,8 @@
 ![image](https://github.com/user-attachments/assets/029e0b56-76ab-4516-869b-79df3573aa01)
 
 ## 5. Tạo được query truy vấn ra thông tin gồm 4 cột: họ tên gv, môn dạy, giờ vào lớp, giờ ra.
-
+☘ Lệnh truy vấn
+```sql
 SELECT 
     GV.HoTen AS N'Họ tên GV',
     MH.TenMH AS N'Môn dạy',
@@ -98,6 +99,9 @@ SELECT
 FROM TKB
 JOIN GiaoVien GV ON TKB.MaGV = GV.MaGV
 JOIN MonHoc MH ON TKB.MaMH = MH.MaMH;
+
+```sql
+
 
 
 
