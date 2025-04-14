@@ -164,41 +164,6 @@ REFERENCES [dbo].[MonHoc] ([MaMH])
 GO
 ALTER TABLE [dbo].[TKB] CHECK CONSTRAINT [FK_TKB_MonHoc]
 GO
-
-/****** Object:  StoredProcedure [dbo].[TKB_GV]    Script Date: 14/04/2025 10:42:50 SA ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
--- =============================================
--- Author:      Đậu Văn Khánh
--- Create date: 2025-04-13
--- Description:	Truy vấn các giáo viên bận giảng dạy trong khoảng thời gian
--- =============================================
-CREATE PROCEDURE [dbo].[TKB_GV] 
-    @thoiGianBatDau datetime,
-    @thoiGianKetThuc datetime
-AS
-BEGIN
-    SET NOCOUNT ON;
-
-    SELECT DISTINCT
-        GV.HoTen AS N'Họ tên GV',
-        MH.TenMH AS N'Môn dạy',
-        TKB.GioVao AS N'Giờ vào',
-        TKB.GioRa AS N'Giờ ra'
-    FROM TKB 
-    JOIN GiaoVien GV ON TKB.MaGV = GV.MaGV
-    JOIN MonHoc MH ON TKB.MaMH = MH.MaMH
-    WHERE
-        TKB.NgayHoc = CAST(@thoiGianBatDau AS DATE)
-        AND (
-            -- Khoảng thời gian kiểm tra giao với thời gian giảng dạy
-            TKB.GioVao < CAST(@thoiGianKetThuc AS TIME)
-            AND TKB.GioRa > CAST(@thoiGianBatDau AS TIME)
-        )
-END
-GO
 USE [master]
 GO
 ALTER DATABASE [TKB] SET  READ_WRITE 
