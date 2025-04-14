@@ -1,3 +1,4 @@
+# Bài tập 04 của SV: K225480106099 - Đậu Văn Khánh - Môn Hệ quản trị CSDL
 # Yêu cầu bài toán:
  - Tạo csdl cho hệ thống TKB (đã nghe giảng, đã xem cách làm)
  - Nguồn dữ liệu: TMS.tnut.edu.vn
