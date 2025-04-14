@@ -89,22 +89,7 @@
 ![image](https://github.com/user-attachments/assets/029e0b56-76ab-4516-869b-79df3573aa01)
 
 ## 5. Tạo được query truy vấn ra thông tin gồm 4 cột: họ tên gv, môn dạy, giờ vào lớp, giờ ra.
-☘ Lệnh truy vấn
-```sql
-SELECT 
-    GV.HoTen AS N'Họ tên GV',
-    MH.TenMH AS N'Môn dạy',
-    TKB.GioVao AS N'Giờ vào',
-    TKB.GioRa AS N'Giờ ra'
-FROM TKB
-JOIN GiaoVien GV ON TKB.MaGV = GV.MaGV
-JOIN MonHoc MH ON TKB.MaMH = MH.MaMH;
-```
-
-☘ Kết quả
-![image](https://github.com/user-attachments/assets/167a564c-9476-492f-80c9-dcfdb82aed8d)
-
-## 6. Trả lời câu hỏi: trong khoảng thời gian từ datetime1 tới datetime2 thì có những gv nào đang bận giảng dạy.
+- Trả lời câu hỏi: trong khoảng thời gian từ datetime1 tới datetime2 thì có những gv nào đang bận giảng dạy.
 ![image](https://github.com/user-attachments/assets/2d758786-9125-4446-a648-7025a85bc2db)
 
 ☘ Xuất hiện ra cửa sổ như này
@@ -140,17 +125,13 @@ BEGIN
     SET NOCOUNT ON;
 
     SELECT DISTINCT
-        GV.MaGV AS MaGiaoVien,
-        GV.HoTen AS TenGiaoVien,
-        MH.TenMH AS TenMonHoc,
-		LHP.Tenlop,
-        TKB.GioVao,
-        TKB.GioRa,
-        TKB.NgayHoc
+        GV.HoTen AS N'Họ tên GV',
+        MH.TenMH AS N'Môn dạy',
+        TKB.GioVao AS N'Giờ vào',
+        TKB.GioRa AS N'Giờ ra'
     FROM TKB 
     JOIN GiaoVien GV ON TKB.MaGV = GV.MaGV
     JOIN MonHoc MH ON TKB.MaMH = MH.MaMH
-	JOIN LopHocPhan LHP ON TKB.MaLHP = LHP.MaLHP
     WHERE
         TKB.NgayHoc = CAST(@thoiGianBatDau AS DATE)
         AND (
@@ -163,9 +144,10 @@ GO
 -- Lấy danh sách giảng viên bận từ 8:00 đến 12:00 ngày 2025-03-20
 EXEC TKB_GV '2025-03-20 8:00', '2025-03-20 12:00';
 ```
-☘ Kết quả
 
-![image](https://github.com/user-attachments/assets/88f7dd71-5a10-48be-b221-1bdbf4ddb3bb)
+☘ Kết quả
+![image](https://github.com/user-attachments/assets/e5888b81-6d10-46b0-9299-0eb8610faef5)
+
 
 
 
