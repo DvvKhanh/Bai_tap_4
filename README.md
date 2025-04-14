@@ -90,6 +90,7 @@
 
 ## 5. Tạo được query truy vấn ra thông tin gồm 4 cột: họ tên gv, môn dạy, giờ vào lớp, giờ ra.
 - Trả lời câu hỏi: trong khoảng thời gian từ datetime1 tới datetime2 thì có những gv nào đang bận giảng dạy.
+  
 ![image](https://github.com/user-attachments/assets/2d758786-9125-4446-a648-7025a85bc2db)
 
 ☘ Xuất hiện ra cửa sổ như này
